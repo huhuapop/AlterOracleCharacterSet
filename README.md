@@ -1,7 +1,7 @@
 # AlterOracleCharacterSet
 Alter Oracle Character Set from WE8MSWIN1252  to AL32UTF8 at 11gR2
 
-Isearch in a lot of document for Alter Character Set from WE8MSWIN1252  to AL32UTF8 at Oracle 11gR2.
+I search in a lot of document for Alter Character Set from WE8MSWIN1252  to AL32UTF8 at Oracle 11gR2.
 Most of them could not work because of 
 alter database character set INTERNAL_USE AL32UTF8; 
 will occur erro 'ORA-12721: operation cannot execute when other sessions are active' or 'SQL Error: ORA-12712: new character set must be a superset of old character set'.
